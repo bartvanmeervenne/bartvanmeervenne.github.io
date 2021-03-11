@@ -1,0 +1,404 @@
+/* kleuren */
+/*---backround: */
+/*-----body: #E7F4F5 */
+/*-----nav: #557D80 */
+/*---text: */
+/*-----body: #000587 */
+/*-----nav: #B3761E */
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*----------------------------------------------*/
+/*----------------------------------------------*/
+
+
+/*--------TODO--------*/
+/*--BACKROUND COLOUR--*/
+/*--------FONT--------*/
+/*------JUSTIFY-------*/
+
+nav {
+    background-color: #557D80;
+    margin-bottom: 1.5rem;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    padding: 1rem;
+    
+}
+
+nav a {
+    color: #FFF48C;
+    text-decoration: none;
+    padding-bottom:0.6rem;
+}
+
+nav ul li:hover {
+    background-color: #78FF9E;
+}
+
+nav ul li:hover a {
+    color: #B3761E;
+}
+
+article img {
+    border-radius: 7%;
+    max-width: 250px;
+    margin-bottom: 1rem;
+}
+
+body {
+    background-color: #E7F4F5;
+    color: #000587;
+    text-align: left;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    font-size: 100%;
+    text-align: left;
+    line-height: 1.4;
+}
+
+.profo {
+    margin-bottom: 1.5rem;
+    max-width: 30%;
+    margin-left: 35%;
+}
+
+.images {
+    display: flex;
+    max-width: 100%;
+}
+
+li.actual {
+    border-bottom: 5px solid #FFF48C;
+}
+
+.images li img {
+    max-width: 20%;
+}
+
+.images {
+    margin-left: 15%;
+}
+
+main {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+footer {
+    margin-top: 3.5rem;
+    padding: 2rem;
+    background-color: #557D80;
+    color: #FFF48C;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    margin-bottom: 1rem;
+    margin-left: 10%;
+}
+
+
+
+h2 {
+    font-size: 2.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.75rem;
+
+}
+
+h3 {
+    color: #45807D;
+}
+
+h2 + article {
+    margin-bottom: 3rem;
+    margin-left: 10%;
+}
+
+article {
+    margin-bottom: 3rem;
+}
+
+.projecten ul img {
+    max-width: 230px;
+    border-radius: 5%;
+}
+
+h3 {
+    font-size: 1.5rem;
+    padding: 5px;
+    margin-bottom: 1.5rem;
+}
+
+.projecten ul {
+    list-style: none;
+    margin-left: 12%;
+}
+
+.bewijzen ul {
+    list-style: none;
+    margin-left: 12%;
+}
+
+.projecten ul li {
+    margin: 1.5rem 1.5rem 4rem 1rem;
+}
+
+.bewijzen ul li {
+    padding: 0.5rem;
+}
+
+.projecten ul li img {
+    margin: 2.5rem 1.5rem 0rem 5rem;
+}
+
+h1 + p > a {
+    color: #79807F;
+}
+
+h1 + p > a:hover {
+    color: #77D5C3;
+}
+
+article > a {
+    color:#79807F;
+}
+
+article > a:hover {
+    color: #77D5C3;
+}
+
+em {
+    font-weight: 1000;
+    font-size: 17px;
+}
+
+.projecten ul a, .bewijzen ul a {
+    color: #79807F;
+}
+
+.vrije-tijd {
+    margin-top: 3.5rem;
+}
+
+.projecten ul a:hover, .bewijzen ul a:hover {
+    color: #77D5C3;
+}
+
+h1 + p {
+    margin-bottom: 3.5rem;
+    margin-left: 10%;
+    margin-right: 15%;
+}
+
+h1 + p + article {
+    margin-left: 10%;
+}
+
+.competenties {
+    margin-left: 10%;
+    margin-right: 12%;
+}
+
+.competenties article p {
+    margin-left: 1rem;
+}
+
+.competenties img {
+    margin-top: 2.5rem;
+    margin-left: 2.5rem;
+}
+
+/* screen width vanaf 930px = 58.120rem */
+@media only screen and (min-width: 58.120rem){
+    h2 {
+        font-size: 2rem;
+    }
+    
+    h1 {
+        margin-left: 20%;
+        margin-bottom: 3.5rem;
+    }
+    
+    h2 + article {
+        margin-left: 15%;
+    }
+    
+    main {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    
+    .profo {
+        max-width: 20%;
+        margin-left: 40%;
+        margin-top: 2rem;
+    }
+
+    .projecten {
+        margin-left:15%;
+        margin-right:20%;
+    }
+    
+    .bewijzen {
+        margin-left: 10%;
+        margin-right:15%;
+    }
+    
+    .vrije-tijd {
+        margin-top:0;
+    }
+    
+    .competenties {
+        margin-left: 25%;
+        margin-right:25%;
+    }
+    
+    h1 + p {
+        margin-left: 22%;
+        margin-right: 25%;
+    }
+    
+    .cv {
+        margin-left: 22%;
+    }
+    
+    .h1-index {
+        margin-left: 15%;
+    }
+    
+
+    @supports (display: grid){
+        main {
+            display: grid;
+            grid-template-rows: 1fr 5fr;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 1rem;
+            grid-column-gap: 3rem;
+        }
+        
+        main h2:nth-child(1){
+            grid-row: 1/2;
+            grid-column: 1/2;
+        }
+        
+        main h2:nth-child(3){
+            grid-row: 1/2;
+            grid-column: 2/3;
+        }
+        
+        main section:nth-child(2){
+            grid-row: 2/3;
+            grid-column: 1/2;
+        }
+        
+        main section:nth-child(4){
+            grid-row: 2/3;
+            grid-column: 2/3;
+        }
+        
+        header {
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+        }
+        
+        
+        header .images {
+            grid-row: 1/2;
+        }
+        
+        header .images li img {
+            padding-left: 40%;
+            max-height: 50px;
+        }
+        
+        
+        header nav {
+            grid-row: 2/3;
+            margin-bottom: 0;
+        }
+        
+        .images {
+            display: grid;
+            margin-left: 0px;
+            grid-template-rows: 1fr;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+        
+        .images li:first-child {
+            grid-column: 1/2;
+            grid-row: 1/2;
+        }
+        
+        .image li:nth-child(2) {
+            grid-column: 2/3;
+            grid-row: 1/2;
+        }
+        
+        .image li:nth-child(3){
+            grid-column: 3/4;
+            grid-row: 1/2;
+        }
+        
+        .image:last-child {
+            grid-column: 4/5;
+            grid-row: 1/2;
+        }
+        
+    }
+}
+
+
+
+
